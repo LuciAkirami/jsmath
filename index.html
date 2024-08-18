@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="01introduction.js"></script>
+    <style>
+        /* Apply box-sizing to include padding and borders in element's total width and height */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        } 
+        
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; 
+            height: 100%; /* Ensure the body takes full height */
+            width: 100%;  /* Ensure the body takes full width */
+        }
+        
+        canvas {
+            display: block; /* Remove extra space below canvas */
+        }
+    </style>
+    <title>Math and Canvas</title>
+</head>
+<body>
+    <h1 id="heading">Henlo Guys</h1>
+    <canvas id="canvas-tag" width="600" height="600">
+        An alternative text describing what your canvas displays.
+    </canvas>
+</body>
+</html>
