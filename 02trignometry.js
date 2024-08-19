@@ -12,10 +12,10 @@ window.onload = () => {
     // orelse it will be present at top of page
     ctx.translate(0, height / 2);
 
-    ctx.sclale(1, -1); // will inverse the y-axis. As the y-axis is already reverse bydefault, we reserve it again
+    ctx.scale(1, -1); // will inverse the y-axis. As the y-axis is already reverse bydefault, we reserve it again
 
     let x, y;
-    for (let angle = 0; angle <= Math.PI * 2; angle += 0.01) {
+    for (let angle = 0; angle <= Math.PI * 4; angle += 0.01) {
         x = angle * 100;
         y = Math.sin(angle) * 100;
         // console.log(x)
